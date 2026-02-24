@@ -1,16 +1,47 @@
-/* Starter CSS to edit */
 body {
-    font-family: Arial, sans-serif;
-    max-width: 600px;
-    margin: 40px auto;
-    padding: 20px;
+  font-family: Arial, sans-serif;
+  background: #9C9CFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 
-h1 {
-    text-align: center;
+.card {
+  background: white;
+  padding: 30px;     
+  border-radius: 12px;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
-#output {
-    margin-top: 20px;
-    font-weight: bold;
+.card input,
+.card button {
+  width: 100%;           
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-sizing: border-box; 
+  font-size: 16px;
+}
+
+.card button {
+  background: #0000FF;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.card button:hover {
+  background: #1557b0;
+}
+
+#result {
+  margin-top: 15px;
+  padding: 12px;
+  border-radius: 8px;
 }
