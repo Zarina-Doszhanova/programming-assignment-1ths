@@ -1,4 +1,4 @@
-# Personal Assignment 1 Report Template
+кп тфйчв# Personal Assignment 1 Report Template
 
 ## 1. Project Overview
 
@@ -19,24 +19,25 @@ This calculator calculate fuel for a trip. It shows how much fuel is needed and 
 | Consumption | l/km | Car fuel use |
 | Price | tg | Fuel price per liter |
 
-Explain in words:  
-(Why did you choose these inputs? Why are they important?)
+These inputs help the calculator work and work correctly.
+1.The **name** makes result more personal for the user.
+2.**Distance** and **concumption** show how much fuel a car needs.
+3.The price shows how much money the trip costs.
 
 ---
 
 ## 3. Process (Calculation Logic)
 
 **Formula or Calculation Used:**  
-(Write your formula or explain how calculation works.)
-
-Example:  
-BMI = weight / (height in meters)^2
+Fuel needed = (distance * consumption)/100
+Total cost = fuel needed * price per liter
 
 **Steps:**
-1. Get input values from HTML  
-2. Convert values if needed (example: cm → meters)  
-3. Perform calculation  
-4. Store result in variable  
+1. Get input values from the users  
+2. Convert input values to numbers 
+3. Calculate fuel needed  
+4. Calculate total cost
+5. Show the result
 
 ---
 
