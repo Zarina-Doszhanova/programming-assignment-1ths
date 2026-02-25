@@ -49,6 +49,7 @@ Total cost = fuel needed * price per liter
 ## 4. Conditional Logic (if / else)
 
 If cost is 5000 tg or less → Efficient
+
 If cost is more than 5000 tg → Costly  
 
 I chose these ranges because for me, a trip costs more than 5000 tg it is a bit expensive, but it all depends on the distance. For other people 5000 tg might be cheap. That is just my personal opinion and example.
@@ -75,10 +76,15 @@ What happens if:
 - If user leaves input empty - program show this message:"Please enter positive numbers!"
 
 - Explain how your program handles this.
+
   if (distance <= 0 || consumption <= 0 || price <= 0) {
+  
     result.style.background = "#fff3cd";
+    
     result.innerHTML = "Please enter positive numbers!";
+    
     return;
+    
 The program checks if the numbers are positive. If a number is zero or negative, it shows a message and don't calculate. If the user leaves an empty, the program treats it as zero.
 ---
 
@@ -114,4 +120,5 @@ If yes, explain briefly:
 ## 10. Reflection
 
 What did you learn from this assignment?
+
 I already knew the basics of HTML and little CSS. In this assignment, I learned more about CSS, like colors, borders and spacing. I also started to learn JavaScript and how to use it to make the page work. Now I can make a caiculator that takes input, calculates and shows the result. This progect helped me understand HTML, CSS and JS work together.
