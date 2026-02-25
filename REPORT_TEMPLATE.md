@@ -48,15 +48,10 @@ Total cost = fuel needed * price per liter
 
 ## 4. Conditional Logic (if / else)
 
-Explain how your program interprets the result.
+If cost is 5000 tg or less → Efficient
+If cost is more than 5000 tg → Costly  
 
-Example:
-
-If BMI < 18.5 → Underweight  
-If BMI 18.5 – 24.9 → Normal  
-If BMI ≥ 25 → Overweight  
-
-Explain why you chose these ranges (if using real model, mention it).
+I chose these ranges because for me, a trip costs more than 5000 tg it is a bit expensive, but it all depends on the distance. For other people 5000 tg might be cheap. That is just my personal opinion and example.
 
 ---
 
@@ -64,10 +59,10 @@ Explain why you chose these ranges (if using real model, mention it).
 
 What does your program show to the user?
 
-- Calculated value  
-- Category or interpretation  
-- Personalized message (if used)  
-- Optional: binary output (if implemented)
+- Fuel needed
+- Total cost
+- Personalized message 
+- Trip status (Efficient or Costly)
 
 ---
 
