@@ -21,7 +21,9 @@ This calculator calculate fuel for a trip. It shows how much fuel is needed and 
 
 These inputs help the calculator work and work correctly.
 1.The **name** makes result more personal for the user.
+
 2.**Distance** and **concumption** show how much fuel a car needs.
+
 3.The price shows how much money the trip costs.
 
 ---
@@ -30,6 +32,7 @@ These inputs help the calculator work and work correctly.
 
 **Formula or Calculation Used:**  
 Fuel needed = (distance * consumption)/100
+
 Total cost = fuel needed * price per liter
 
 **Steps:**
