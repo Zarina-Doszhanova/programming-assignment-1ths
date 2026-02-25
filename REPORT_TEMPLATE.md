@@ -6,10 +6,7 @@
 Fuel Calculator
 
 **What does your calculator do?**  
-(Explain in 2–3 sentences what problem you are solving and what you calculate.)
-
-Example:  
-This calculator calculates Body Mass Index (BMI) using weight and height. It also classifies the result into health categories.
+This calculator calculate fuel for a trip. It shows how much fuel is needed and how much money the trip costs.
 
 ---
 
@@ -19,8 +16,10 @@ List and explain all inputs you used.
 
 | Input Name | Unit | What it Represents |
 |---|---|---|
-| Example: Weight | kg | User body weight |
-| Example: Height | cm | User height |
+| Name | Driver | User Name |
+| Distance | km | Trip distance |
+| Consumption | l/km | Car fuel use |
+| Price | tg | Fuel price per liter |
 
 Explain in words:  
 (Why did you choose these inputs? Why are they important?)
