@@ -3,7 +3,7 @@
 ## 1. Project Overview
 
 **Project Name:**  
-(write your project name)
+Fuel Calculator
 
 **What does your calculator do?**  
 (Explain in 2–3 sentences what problem you are solving and what you calculate.)
