@@ -12,11 +12,9 @@ This calculator calculate fuel for a trip. It shows how much fuel is needed and 
 
 ## 2. Inputs
 
-List and explain all inputs you used.
-
 | Input Name | Unit | What it Represents |
 |---|---|---|
-| Name | Driver | User Name |
+| Name | - | User Name |
 | Distance | km | Trip distance |
 | Consumption | l/km | Car fuel use |
 | Price | tg | Fuel price per liter |
