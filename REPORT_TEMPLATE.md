@@ -111,10 +111,13 @@ Did you use AI tools?
 Yes
 
 If yes, explain briefly:
-- What you asked AI for  
-- What you modified yourself  
-- What you fully understand now  
-
+- What you asked AI for
+- I asked AI to explain why my HTML didn't work sometimes and how to fix it. For example, about mistakes and a wrong letter in my code or extra space. I asked about CSS - borders and sizes in code. I also asked how to make the calculator to work in JavaScript because I didn't know it before.
+- What you modified yourself
+-  I worked with HTML mostly bu myself. I changed the color of the whole calculator and size of the buttons, boxes and other spaces. 
+- What you fully understand now
+- I understand how CSS works for styling. Now I know how to connect CSS and JavaScript to HTML. I also fully understand how to change colors, sizes. I started to understand how JavaScript works and how to make the page functional.
+  
 ---
 
 ## 10. Reflection
