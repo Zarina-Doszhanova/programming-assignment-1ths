@@ -84,7 +84,8 @@ What happens if:
     result.innerHTML = "Please enter positive numbers!";
     
     return;
-The program checks if the numbers are positive. If a number is zero or negative, it shows a message and don't calculate. If the user leaves an empty, the program treats it as zero.
+    
+  The program checks if the numbers are positive. If a number is zero or negative, it shows a message and don't calculate. If the user leaves an empty, the program treats it as zero.
 ---
 
 ## 7. Optional Features (If You Added Any)
