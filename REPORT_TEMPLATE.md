@@ -70,21 +70,23 @@ What does your program show to the user?
 
 What happens if:
 
-- User enters zero?  
-- User enters negative number?  
-- User leaves input empty?  
+- If user enters zero - program show this message:"Please enter positive numbers!"
+- If user enters negative number - program show this message:"Please enter positive numbers!"
+- If user leaves input empty - program show this message:"Please enter positive numbers!"
 
-Explain how your program handles this.
-
+- Explain how your program handles this.
+  if (distance <= 0 || consumption <= 0 || price <= 0) {
+    result.style.background = "#fff3cd";
+    result.innerHTML = "Please enter positive numbers!";
+    return;
+The program checks if the numbers are positive. If a number is zero or negative, it shows a message and don't calculate. If the user leaves an empty, the program treats it as zero.
 ---
 
 ## 7. Optional Features (If You Added Any)
 
-Examples:
-- Binary conversion  
-- Extra calculations  
-- Extra UI features  
-- Validation messages  
+- Error messages
+- Color result (green or red) 
+- Personal message 
 
 ---
 
@@ -93,14 +95,14 @@ Examples:
 1. Download or clone repository  
 2. Open `index.html` in browser  
 3. Enter input values  
-4. Click calculate button  
+4. Click Calculate button  
 
 ---
 
 ## 9. AI Usage (If Used)
 
 Did you use AI tools?  
-(Yes / No)
+Yes
 
 If yes, explain briefly:
 - What you asked AI for  
@@ -112,5 +114,4 @@ If yes, explain briefly:
 ## 10. Reflection
 
 What did you learn from this assignment?
-
-(2–4 sentences)
+I already knew the basics of HTML and little CSS. In this assignment, I learned more about CSS, like colors, borders and spacing. I also started to learn JavaScript and how to use it to make the page work. Now I can make a caiculator that takes input, calculates and shows the result. This progect helped me understand HTML, CSS and JS work together.
